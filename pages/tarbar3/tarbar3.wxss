@@ -1,0 +1,103 @@
+/* pages/tarbar3/tarbar3.wxss */
+/* pages/hot/hot.wxss */
+.header{
+    width: 100%;
+    height:100rpx;
+    display:flex;
+    background-color:whitesmoke;
+  }
+  .header view{
+    margin:auto;
+  }
+  .context{
+    display: flex;
+    margin: 20rpx;
+  }
+  .context .photo{
+    position: relative;
+  }
+  .context .photo .p2{
+    position: absolute;
+    top:-20rpx;
+    left: -20rpx;
+    width: 40rpx;
+    height: 40rpx;
+    margin:20rpx;
+    font-size: 24rpx;
+    width:40rpx;
+    height: 40rpx;
+    text-align: center;
+    border-radius:20rpx 0 30rpx 0;
+    color:white;
+  }
+  .one{
+    background-color: rgb(84, 125, 187);
+  }
+  .two{
+    background-color: rgb(245, 40, 74);
+  }
+  .three{
+    
+    background-color: rgba(255, 202, 8, 0.95);
+  }
+  .gray{
+    background-color: rgba(154,152,153,.9);
+  }
+  .context .photo image{
+    width: 300rpx;
+    height: 200rpx;
+  }
+  .context .text{
+    margin-left: 20rpx;
+  }
+  .context .text .t1{
+    font-size:32rpx ;
+    font-weight: bolder;
+  }
+  .context .text .t2{
+    font-size: 24rpx;
+    color: rgba(0,0,0,.7);
+    margin-top:20rpx;
+    margin-bottom:60rpx;
+  }
+  .context .text .t3{
+    font-size: 24rpx;
+    color: rgba(0,0,0,.7);
+  }
+  
+  .footer{
+    height: 40rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .footer .icon1{
+    width:15rpx;
+    height: 15rpx;
+    background-color:rgba(0,0,0,.3);
+    border-radius: 50%;
+    margin-right: 30rpx;
+  }
+  .footer .p1{
+    width: 40rpx;
+    height: 40rpx;
+    margin-right: 10rpx;
+
+  }
+  .footer .t1{
+    display: flex;
+    margin-right: 40rpx;
+    color:rgba(0,0,0,.3);
+    font-weight: bolder;
+   
+  }
+  .footer .t2{
+    letter-spacing:20rpx;
+    color:rgba(128, 128, 128, 0.863);
+    font-size:25rpx;
+  }
+  
+  
+  
+  

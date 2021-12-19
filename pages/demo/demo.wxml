@@ -1,0 +1,61 @@
+<!--pages/demo/demo.wxml-->
+<!-- 搜索栏 -->
+<view class='top'>
+    <view class="searchbar">
+        <view class="content">
+            <image src="../../image/ss.png" class="search-icon"></image>
+            <input class="input" placeholder="夜色暗涌时"></input>
+        </view>
+        <view class="iconfont icon-shipinbofang"></view>
+    </view>
+
+    <!-- 顶部导航栏 -->
+    <view class="navbar">
+       <view class="header" wx:for="{{list}}" bindtap="click">{{item}}</view>
+    </view>
+
+    <!-- 滑动图片 -->
+    <view class='photo'>
+        <swiper autoplay="true" interval="1500">
+            <swiper-item style="display: flex; justify-content: center;">
+                <image src='https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fp9.itc.cn%2Fimages01%2F20210414%2F010ad435ffc04b8d921aa20c4081ebed.png&refer=http%3A%2F%2Fp9.itc.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1642323073&t=ca4d288f6086ea3a02ef726dfcd6ce8c'></image>
+            </swiper-item>
+            <swiper-item style="display: flex; justify-content: center">
+                <image src='https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimage109.360doc.com%2FDownloadImg%2F2021%2F03%2F3021%2F218885137_1_20210330092932941.png&refer=http%3A%2F%2Fimage109.360doc.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1642323112&t=5ed2f6ccd135c80ba22e9e71f5deb1da'></image>
+            </swiper-item>
+            <swiper-item style="display: flex; justify-content: center">
+                <image src='https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fnimg.ws.126.net%2F%3Furl%3Dhttp%3A%2F%2Fdingyue.ws.126.net%2F2021%2F0430%2Fc76629a6j00qscs2a000uc000ep008ec.jpg%26thumbnail%3D650x2147483647%26quality%3D80%26type%3Djpg&refer=http%3A%2F%2Fnimg.ws.126.net&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1642323160&t=414f033ca1be79d5a1fd551447f8bff3'></image>
+            </swiper-item>
+        </swiper>
+    </view>
+</view>
+
+<!-- 当季热播 -->
+<view class='hot'>当季热播</view>
+<view class='imagelist'>
+    <view wx:for="{{imagelist}}">
+        <image src='{{item.imageUrl}}'></image>
+        <view class="name">{{item.name}}</view>
+        <view class="des">{{item.describe}}</view>
+    </view>
+</view>
+
+<!-- 热播神宗 -->
+<view class='hot'>热播神宗</view>
+<view class='imagelist'>
+    <view wx:for="{{imagelist2}}">
+        <image src='{{item.imageUrl2}}'></image>
+        <view class="name">{{item.name2}}</view>
+        <view class="des">{{item.describe2}}</view>
+    </view>
+</view>
+
+<!-- 精选热剧 -->
+<view class='hot'>精选热剧</view>
+<view class='imagelist'>
+    <view wx:for="{{imagelist3}}">
+        <image src='{{item.imageUrl3}}'></image>
+        <view class="name">{{item.name3}}</view>
+        <view class="des">{{item.describe3}}</view>
+    </view>
+</view>

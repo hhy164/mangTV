@@ -1,0 +1,37 @@
+<!--pages/wode/wode.wxml-->
+<view class="top">
+  <view class="top_image">
+    <image src="https://img1.baidu.com/it/u=1095921902,1980071203&fm=26&fmt=auto"></image>
+  </view>
+  <view class="top_text">
+    <view class="sayHi">hello~欢迎回来</view>
+    <view class="name">xaoxiao的风__</view>
+  </view>
+</view>
+
+<view class="vipcount">
+  <view class="viptext">
+    <image src="../../image/VIP.png"></image>
+    <text>VIP会员</text>
+  </view>
+  <view class="fstprice">首周0.99元 ></view>
+</view>
+
+
+<view class="select_item">
+  <view class="select_item_left">
+    <image src="../../image/history.png"></image>
+    <text>观看历史</text>
+  </view>
+  <view class="jiantou">0 ></view>
+</view>
+
+<view class="select_item2" wx:for="{{wode}}" wx:key="index">
+  <view class="select_item_left">
+    <image src="{{item.img}}"></image>
+    <text>{{item.text}}</text>
+  </view>
+  <view class="jiantou">></view>
+</view>
+
+<view class="logoff">退出登录</view>

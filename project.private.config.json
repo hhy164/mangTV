@@ -1,0 +1,24 @@
+{
+    "setting": {},
+    "condition": {
+        "plugin": {
+            "list": []
+        },
+        "game": {
+            "list": []
+        },
+        "gamePlugin": {
+            "list": []
+        },
+        "miniprogram": {
+            "list": [
+                {
+                    "name": "pages/tarbar2/tarbar2",
+                    "pathName": "pages/tarbar2/tarbar2",
+                    "query": "",
+                    "scene": null
+                }
+            ]
+        }
+    }
+}

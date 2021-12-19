@@ -1,0 +1,50 @@
+{
+    "pages": [
+        "pages/demo/demo",
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/tarbar2/tarbar2",
+        "pages/tarbar3/tarbar3",
+        "pages/tarbar4/tarbar4"
+    ],
+
+    "tabBar": {
+        "color": "#74777e",
+        "selectedColor": "#f06000",
+        "borderStyle": "white",
+        "list": [{
+                "pagePath": "pages/demo/demo",
+                "iconPath": "./image/jx.png",
+                "selectedIconPath": "./image/jxselect.png",
+                "text": "精选"
+            },
+            {
+                "pagePath": "pages/tarbar2/tarbar2",
+                "iconPath": "./image/wp.png",
+                "selectedIconPath": "./image/wpselect.png",
+                "text": "大芒"
+            },
+            {
+                "pagePath": "pages/tarbar3/tarbar3",
+                "iconPath": "./image/ss.png",
+                "selectedIconPath": "./image/ssselect.png",
+                "text": "热榜"
+            },
+            {
+                "pagePath": "pages/tarbar4/tarbar4",
+                "iconPath": "./image/my.png",
+                "selectedIconPath": "./image/myselect.png",
+                "text": "我的"
+            }
+
+        ]
+    },
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#000",
+        "navigationBarTitleText": "芒果TV",
+        "navigationBarTextStyle": "white"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

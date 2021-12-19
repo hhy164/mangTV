@@ -1,0 +1,19 @@
+<!--pages/demotwo/demotwo.wxml-->
+<!--one-->
+<view class="wrap" wx:for="{{videoList}}">
+    <view>
+        <video class="videolist" preload="metadata" crossorigin="anonymous" src="{{item.videoUrl}}" autoplay="autoplay"></video>
+    </view>
+    <view class="part">
+        <view style="display: flex;align-items: center;">
+            <image class="imagelist" src="{{item.url}}"> </image>
+            <text class="name">{{item.name}}</text>
+        </view>
+        <view class="icon">
+            <image class="zan" src="{{item.icon1}}"> </image>
+            <button open-type="share" style="padding:0;width: 20px;height: 20px;"> 
+                <image class="turn" src="{{item.icon2}}"> </image>
+            </button>  
+        </view>
+    </view>
+</view>

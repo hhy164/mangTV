@@ -1,0 +1,26 @@
+<!--pages/tarbar3/tarbar3.wxml-->
+<view class="header">
+  <view class="flexview" wx:for="{{list}}">{{item}}</view>
+</view>
+<!-- 数据项 -->
+<view class="context" wx:for="{{hotList}}">
+    <view class="photo">
+      <image class="p1" src="{{item.imageUrl}}" style="border-radius:20rpx"></image>
+      <view class="p2 {{item.icon1}}">{{item.text}}</view>
+    </view>
+    <view class="text">
+      <view class="t1">{{item.t1}}</view>
+      <view class="t2">{{item.t2}}</view>
+      <view class="t3">{{item.t3}}</view>
+    </view>
+</view>
+
+<!-- 底部 -->
+<view class="footer">
+        <view class="icon1"></view>
+        <image class="p1" src="../../image/jx.png"></image>
+        <text class="t1">芒果TV</text>
+        <view class="icon2"></view>
+        <text class="t2">天生青春</text>
+        <view class="icon1"></view>
+ </view>
